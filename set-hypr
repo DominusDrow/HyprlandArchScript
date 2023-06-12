@@ -37,6 +37,7 @@
 #MY MINE PROGRAMS
 #redshitf: program to decreese light blue in the screen
 #ranger: file mannager for console
+#github-cli: The github CLI
 
 #nodejs: local engie javascript
 #npm: packet mannager
@@ -77,7 +78,7 @@ if [[ $INST == "Y" || $INST == "y" ]]; then
     swappy grim slurp pamixer brightnessctl gvfs \
     bluez bluez-utils lxappearance xfce4-settings \
     dracula-gtk-theme dracula-icons-git xdg-desktop-portal-hyprland \
-    redshift-wayland-git \
+    redshift-wayland-git ranger github-cli \
     npm nodejs
 
     # Start the bluetooth service
