@@ -40,6 +40,7 @@
 #github-cli: The github CLI
 #sugar-candy: theme for sddm
 #ntp: time 
+#vlc: play video
 
 #nodejs: local engie javascript
 #npm: packet mannager
@@ -81,7 +82,7 @@ if [[ $INST == "Y" || $INST == "y" ]]; then
     bluez bluez-utils lxappearance xfce4-settings \
     dracula-gtk-theme dracula-icons-git xdg-desktop-portal-hyprland \
     sddm sddm-theme-sugar-candy-git \
-    redshift-wayland-git ranger github-cli ntp \
+    redshift-wayland-git ranger github-cli ntp vlc \
     npm nodejs
 
     # Start the bluetooth service
